@@ -31,6 +31,8 @@ spring.mvc.view.suffix=.jsp
 
 把相应文件夹放入 `META-INF/resources` 即可
 
+原理: 默认的package类型为jar的时候, /webapp/WEB-INF下的文件不会自动的打包进去, 所以需要用到了一个Servlet3关于META-INF的一个特性: http://www.blogjava.net/yongboy/archive/2011/01/03/346208.html
+
 
 ### 运行项目
 
