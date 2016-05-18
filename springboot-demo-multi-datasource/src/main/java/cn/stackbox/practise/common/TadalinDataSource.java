@@ -6,9 +6,9 @@ import java.lang.annotation.*;
 @Target({ElementType.METHOD, ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface MzDataSource {
+public @interface TadalinDataSource {
 
-    String name() default MzDataSource.master;
+    String name() default TadalinDataSource.master;
 
     public static String master = "masterDataSource";
 

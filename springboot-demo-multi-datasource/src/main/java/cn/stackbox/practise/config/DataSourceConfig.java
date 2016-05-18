@@ -1,7 +1,7 @@
 package cn.stackbox.practise.config;
 
 import cn.stackbox.practise.common.DynamicDataSourceResolver;
-import cn.stackbox.practise.common.MzDataSource;
+import cn.stackbox.practise.common.TadalinDataSource;
 import com.google.common.collect.Maps;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
@@ -25,8 +25,8 @@ public class DataSourceConfig {
 
         Map<Object, Object> dataSources = Maps.newHashMap();
 
-        dataSources.put(MzDataSource.master, masterDataSource());
-        dataSources.put(MzDataSource.slave, slaveDataSource());
+        dataSources.put(TadalinDataSource.master, masterDataSource());
+        dataSources.put(TadalinDataSource.slave, slaveDataSource());
 
         resolver.setTargetDataSources(dataSources);
         return resolver;

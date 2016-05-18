@@ -8,6 +8,6 @@ public class DynamicDataSourceResolver extends AbstractRoutingDataSource {
     @Override
     protected Object determineCurrentLookupKey() {
 
-        return MzDataSource.master;
+        return TadalinDataSource.master;
     }
 }
