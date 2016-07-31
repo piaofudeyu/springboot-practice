@@ -1,5 +1,4 @@
-# springboot-practice
-
+# SpringBoot实践
 
 + [SpringBoot使用Aspect切面编程]()
 + [SpringBoot在FatJar模式下使用jsp]()
