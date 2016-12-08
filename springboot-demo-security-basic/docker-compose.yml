@@ -9,6 +9,6 @@ services:
     volumes:
       - /tmp
     ports:
-      - "9090:9090"
+      - "8080:8080"
 
 
