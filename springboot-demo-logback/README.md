@@ -1,4 +1,4 @@
-[](https://img.shields.io/badge/jdk-1.8-green.svg)
+![](https://img.shields.io/badge/jdk-1.8-green.svg)
 
 Build package
 
