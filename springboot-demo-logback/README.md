@@ -10,5 +10,5 @@ $ mvn bulid
 Run application
 
 ```
-$ docker-compose up
+$ docker-compose up --build
 ```
