@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: superalsrk/springboot-demo-logback
+    ports:
+      - "9090:9090"
