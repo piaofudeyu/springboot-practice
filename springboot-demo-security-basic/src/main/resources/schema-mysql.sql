@@ -1,6 +1,6 @@
 create table IF NOT EXISTS t_account  (
-	id BIGINT  NOT NULL PRIMARY KEY AUTO_INCREMENT,
-	email varchar(255) DEFAULT NULL,
+  id BIGINT  NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  email varchar(255) DEFAULT NULL,
   pwd varchar(255) DEFAULT NULL,
   role varchar(255) DEFAULT NULL,
   telephone varchar(255) DEFAULT NULL,
