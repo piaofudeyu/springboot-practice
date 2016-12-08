@@ -6,5 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     image: superalsrk/springboot-demo-logback
+    volumes:
+      - /tmp
     ports:
       - "9090:9090"
