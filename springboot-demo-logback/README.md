@@ -12,3 +12,5 @@ Run application
 ```
 $ docker-compose up --build
 ```
+
+Logback logs will be found under `/tmp` folder on your host.
