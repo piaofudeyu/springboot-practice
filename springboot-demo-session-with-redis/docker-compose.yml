@@ -3,8 +3,8 @@ version: "2"
 services:
   web:
     build:
-      context: ../dockerfiles/
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: ../dockerfiles/Dockerfile
     image: superalsrk/springboot-demo-session-with-redis
     volumes:
       - /tmp
