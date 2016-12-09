@@ -2,13 +2,13 @@
 ![](https://img.shields.io/badge/docker--compose-1.9.0-blue.svg)
 
 
-#### Run application
+### Run application
 
 ```
 $ docker-compose up --build
 ```
 
-#### Test Account
+### Test Account
 
 |username | email | telephone | password | role |
 |---------|-------|-----------|----------|------|
@@ -16,7 +16,7 @@ $ docker-compose up --build
 |customer |customer@stackbox.cn|654321| customer_123456|customer|
 
 
-#### Password Encrypt
+### Password Encrypt
 
 ```java
 //Encode origin password
