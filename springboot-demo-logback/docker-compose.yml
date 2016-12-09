@@ -3,7 +3,7 @@ version: "2"
 services:
   web:
     build:
-      context: .
+      context: ../dockerfiles/
       dockerfile: Dockerfile
     image: superalsrk/springboot-demo-logback
     volumes:
