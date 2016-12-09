@@ -16,6 +16,15 @@ Test Account
 |customer |customer@stackbox.cn|654321| customer_123456|customer|
 
 
+Password Encrypt 
+
+```java
+//Encode origin password
+String encryptPwd = EncodeUtil.pwdEncoder.encode(RAW_PASSWORD));
+
+//Verify password
+String verify = ncodeUtil.pwdEncoder.matches(RAW_PASSWORD, ENCRYPT_PASSWORD);
+```
 
 
 

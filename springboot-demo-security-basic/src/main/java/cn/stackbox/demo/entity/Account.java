@@ -32,7 +32,7 @@ public class Account implements Serializable {
     @Column(unique = true)
     private String email;
 
-    private String password;
+    private String pwd;
 
     private String role;
 
@@ -68,12 +68,12 @@ public class Account implements Serializable {
         this.email = email;
     }
 
-    public String getPassword() {
-        return password;
+    public String getPwd() {
+        return pwd;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setPwd(String pwd) {
+        this.pwd = pwd;
     }
 
     public String getRole() {

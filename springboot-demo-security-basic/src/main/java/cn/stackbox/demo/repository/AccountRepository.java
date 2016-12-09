@@ -5,6 +5,9 @@
  */
 package cn.stackbox.demo.repository;
 
+import cn.stackbox.demo.entity.Account;
+import org.springframework.data.repository.CrudRepository;
+
 /**
  * ClassName: AccountRepository <br/>
  * Reason: SomeReason <br/>
@@ -12,5 +15,8 @@ package cn.stackbox.demo.repository;
  *
  * @author SRK.Lyu
  */
-public interface AccountRepository {
+public interface AccountRepository extends CrudRepository <Account, Long> {
+
+    public Account findByEmailOrTelephoneOrUsername(String queryString);
+
 }
