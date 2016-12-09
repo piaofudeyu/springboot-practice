@@ -13,6 +13,6 @@ services:
 
   redis:
     image: redis:3.2.6
-    command: redis-server -d --requirepass redis
+    command: redis-server --requirepass redis
 
 
