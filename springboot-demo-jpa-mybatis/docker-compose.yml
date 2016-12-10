@@ -10,9 +10,11 @@ services:
       - /tmp
     ports:
       - "8080:8080"
+    depends_on:
+      - mariadb
 
   mariadb:
-    image: mariadb:10.1
+    image: mariadb:10.0
     environment:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_DATABASE=demo
