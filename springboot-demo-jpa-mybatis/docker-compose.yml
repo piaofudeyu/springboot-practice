@@ -3,10 +3,15 @@ version: "2"
 services:
   web:
     build:
-      context: ../dockerfiles/
+      context: .
       dockerfile: Dockerfile
-    image: superalsrk/springboot-demo-logback
+    image: superalsrk/springboot-demo-jpa-and-mybatis
     volumes:
       - /tmp
     ports:
       - "8080:8080"
+
+  mariadb:
+    image: mariadb:10.1
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
