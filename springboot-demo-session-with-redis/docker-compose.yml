@@ -10,6 +10,8 @@ services:
       - /tmp
     ports:
       - "8080:8080"
+    depends_on:
+      - redis
 
   redis:
     image: redis:3.2.6
