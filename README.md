@@ -4,9 +4,8 @@
 + [SpringBoot基于Reids的分布式Session](https://github.com/superalsrk/springboot-practice/tree/master/springboot-demo-session-with-redis)
 + [SpringBoot使用Ehcache/Redis作缓存](https://github.com/superalsrk/springboot-practice/tree/master/springboot-demo-cache)
 + [SpringBoot同时使用SpringData和Mybatis](https://github.com/superalsrk/springboot-practice/tree/master/springboot-demo-jpa-mybatis)
-+ [SpringBoot使用读写分离数据库]()
-+ [SpringBoot使用Aspect切面编程]()
-+ [SpringBoot在FatJar模式下使用jsp]()
-+ [SpringBoot基础版springsecurity配置]()
-+ [SpringBoot oauth2配置]()
++ [SpringBoot使用Aspect切面编程(待定)]()
++ [SpringBoot在FatJar模式下使用jsp](https://github.com/superalsrk/springboot-practice/tree/master/springboot-demo-jsp-by-jar)
++ [SpringBoot基础版springsecurity配置(待定)]()
++ [SpringBoot oauth2配置待定]()
 
