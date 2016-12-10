@@ -2,6 +2,7 @@
 
 + [SpringBoot日志配置](https://github.com/superalsrk/springboot-practice/tree/master/springboot-demo-logback)
 + [SpringBoot基于Reids的分布式Session](https://github.com/superalsrk/springboot-practice/tree/master/springboot-demo-session-with-redis)
++ [SpringBoot使用Ehcache/Redis作缓存](https://github.com/superalsrk/springboot-practice/tree/master/springboot-demo-cache)
 + [SpringBoot同时使用SpringData和Mybatis](https://github.com/superalsrk/springboot-practice/tree/master/springboot-demo-jpa-mybatis)
 + [SpringBoot使用读写分离数据库]()
 + [SpringBoot使用Aspect切面编程]()
