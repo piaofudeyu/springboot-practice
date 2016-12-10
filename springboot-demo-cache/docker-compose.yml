@@ -5,8 +5,12 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: superalsrk/springboot-demo-logback
+    image: superalsrk/springboot-demo-cache
     volumes:
       - /tmp
     ports:
       - "8080:8080"
+
+  redis:
+    image: redis:3.2.6
+    command: redis-server --requirepass redis
