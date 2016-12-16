@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Title -->
+    <meta charset="utf-8">
+    <title>Main Page</title>
+    <script src="//cdn.bootcss.com/jquery/2.2.2/jquery.js"></script>
+</head>
+<body>
+
+    <ul id = "info-list">
+
+    </ul>
+
+    <script>
+
+        $(function(){
+
+            var wxUrl01 = 'ws://' + window.location.host + '/ws';
+
+            var socket01 = new WebSocket(wxUrl01);
+
+            socket01.onopen = function() {
+                console.log('socket connected')
+            }
+
+            socket01.onclose = function() {
+                console.log('socket closed')
+            }
+
+            socket01.onmessage = function(e) {
+                console.log(e.data)
+            }
+
+        })
+
+    </script>
+
+</body>
+</html>
