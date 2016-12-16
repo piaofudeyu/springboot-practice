@@ -7,4 +7,4 @@ Run application
 $ docker-compose up --build
 ```
 
-Logback logs will be found under `/tmp` folder on your host.
+open `http://localhost:8080` and then open the chrome console panel
