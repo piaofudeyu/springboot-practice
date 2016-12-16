@@ -8,3 +8,6 @@ $ docker-compose up --build
 ```
 
 open `http://localhost:8080` and then open the chrome console panel
+
+
+Reference: http://docs.spring.io/spring-framework/docs/current/spring-framework-reference/html/websocket.html
