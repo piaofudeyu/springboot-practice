@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: superalsrk/springboot-demo-logback
+    image: superalsrk/springboot-demo-websocket-simple
     volumes:
       - /tmp
     ports:
